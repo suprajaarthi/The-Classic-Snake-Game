@@ -1,0 +1,72 @@
+head, body {
+    background-image: url('bg1.jpg'); 
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Orbitron";
+	  font-size:40px;
+    padding-top: 20px;
+	  padding-bottom: 20px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#gameSelect {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    /*background-color: pink;*/
+    font-family: "Orbitron";
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+	  display: inline-block;
+	  margin-top: 126px;
+
+}
+
+a{
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+  
+}
+
+#snakeGame {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+	  background-image: url(snakes.png);
+    left: 110px;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Orbitron";
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#snakeGame  {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+ /*#snakeGame{
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    border-size:10px;
+    padding: 10px 14px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   }*/
